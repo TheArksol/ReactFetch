@@ -23,7 +23,7 @@ const Dialog_Update = ({ addNewEntry }) => {
     let newWebsite = document.getElementById("dialog_update_input_website").value;
 
     addNewEntry(newName, newUsername, newWebsite);
-    
+  
   };
 
 

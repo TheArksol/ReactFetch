@@ -22,7 +22,6 @@ const Fetching = ({ }) => {
     
     let newEntryArray = { id: (listData.length + 1), address: {}, company: {}, email: {}, name: newName, phone: "PhonePlaceholder", username: newUsername, website: newWebsite };
     listData.push(newEntryArray);
-
     setListData(listData => [...listData, newEntryArray]);
  
     // console.log(JSON.stringify(listData))
@@ -33,6 +32,8 @@ const Fetching = ({ }) => {
         'Content-type': 'application/json; charset=UTF-8',
       },
     })
+      .then(json => setListData(json))
+      .then(json => console.log(json))
       .catch((err) => { console.log(err) })
 
   };
@@ -45,6 +46,8 @@ const Fetching = ({ }) => {
       .catch((err) => { console.log(err) })
   }, [])
 
+
+  console.log(listData);
 
 
   return (

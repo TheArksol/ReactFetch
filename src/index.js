@@ -11,6 +11,12 @@ import ToDoList from "./components/todolist/ToDoList";
 import Fetching from "./components/fetching/Fetching";
 import QuestionsAnswers from "./components/questionsanswers/QuestionsAnswers";
 
+//Work related
+import Work from "./components/work/Work";
+import EinkaufDashboard from "./components/Einkauf/Dashboard"
+import GuideU_Dashboard from "./components/guideu/Dashboard"
+import Artikelsuche from "./components/abv_viewer/artikelsuche/Artikelsuche"
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 
@@ -26,6 +32,14 @@ root.render(
             <Route path="task2" element={<QuestionsAnswers />} />
             <Route path="task3" element={<Fetching />} />
           </Route>
+
+          <Route path="work" element={<EmptyOutlet />}>
+            <Route index element={<Work />} />
+            <Route path="einkaufDashboard" element={<EinkaufDashboard />} />
+            <Route path="artikelsuche" element={<Artikelsuche />} />
+            <Route path="guideu" element={<GuideU_Dashboard />} />
+          </Route>
+
 
         </Route>
       </Routes>
