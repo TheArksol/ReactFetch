@@ -1,0 +1,115 @@
+[{
+  "id": 1,
+  "img": "https://i.picsum.photos/id/1084/536/354.jpg?grayscale&hmac=Ux7nzg19e1q35mlUVZjhCLxqkR30cC-CarVg-nlIf60",
+  "task": "Give the cat a bath",
+  "complete": true,
+  "icon": "paper-plane",
+  "steps": {
+    "first": "done",
+    "second": "failed"
+  },
+  "description_short": "Short description of ID 1",
+  "description": "Far concluded not his something extremity. Want four we face an he gate. On he of played he ladies answer little though nature. Blessing oh do pleasure as so formerly. Took four spot soon led size you. Outlived it received he material. Him yourself joy moderate off repeated laughter outweigh screened."
+}, {
+  "id": 2,
+  "img": "https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA",
+  "task": "Do laundry",
+  "complete": true,
+  "icon": "globe",
+  "steps": {
+    "first": "done",
+    "second": "failed"
+  },
+  "description_short": "Short description of ID 2",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+}, {
+  "id": 3,
+  "img": "https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA",
+  "task": "Do something",
+  "complete": true,
+  "icon": "arobase",
+  "steps": {
+    "first": "done",
+    "second": "failed"
+  },
+  "description_short": "Short description of ID 3",
+  "description": "Behind sooner dining so window excuse he summer. Breakfast met certainty and fulfilled propriety led. Waited get either are wooded little her. Contrasted unreserved as mr particular collecting it everything as indulgence. Seems ask meant merry could put. Age old begin had boy noisy table front whole given."
+}
+, {
+  "id": 4,
+  "img": "https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA",
+  "task": "Make some tea",
+  "complete": false,
+  "icon": "car-rental",
+  "steps": {
+    "first": "done",
+    "second": "failed"
+  },
+  "description_short": "Short description of ID 4",
+  "description": "Unfeeling so rapturous discovery he exquisite. Reasonably so middletons or impression by terminated. Old pleasure required removing elegance him had. Down she bore sing saw calm high. Of an or game gate west face shed. no great but music too old found arose."
+}
+, {
+  "id": 5,
+  "img": "https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA",
+  "task": "Homework",
+  "complete": false,
+  "icon": "curriculum",
+  "steps": {
+    "first": "done",
+    "second": "failed"
+  },
+  "description_short": "Short description of ID 5",
+  "description": "Am if number no up period regard sudden better. Decisively surrounded all admiration and not you. Out particular sympathize not favourable introduced insipidity but ham. Rather number can and set praise. Distrusts an it contented perceived attending oh. Thoroughly estimating introduced stimulated why but motionless."
+}
+, {
+  "id": 6,
+  "img": "https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA",
+  "task": "Read some 40k novel",
+  "complete": true,
+  "icon": "crop",
+  "steps": {
+    "first": "done",
+    "second": "failed"
+  },
+  "description_short": "Short description of ID 6",
+  "description": "Am if number no up period regard sudden better. Decisively surrounded all admiration and not you. Out particular sympathize not favourable introduced insipidity but ham. Rather number can and set praise. Distrusts an it contented perceived attending oh. Thoroughly estimating introduced stimulated why but motionless."
+}
+, {
+  "id": 7,
+  "img": "https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA",
+  "task": "Paint something",
+  "complete": true,
+  "icon": "database",
+  "steps": {
+    "first": "done",
+    "second": "failed"
+  },
+  "description_short": "Short description of ID 7",
+  "description": "Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what. An concluded sportsman offending so provision mr education. Bed uncommonly his discovered for estimating far. Equally he minutes my hastily. Up hung mr we give rest half. Painful so he an comfort is manners."
+}
+, {
+  "id": 8,
+  "img": "https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA",
+  "task": "Paint something",
+  "complete": true,
+  "icon": "customer-and-contacts",
+  "steps": {
+    "first": "done",
+    "second": "failed"
+  },
+  "description_short": "Short description of ID 8",
+  "description": "Am if number no up period regard sudden better. Decisively surrounded all admiration and not you. Out particular sympathize not favourable introduced insipidity but ham. Rather number can and set praise. Distrusts an it contented perceived attending oh. Thoroughly estimating introduced stimulated why but motionless."
+}
+, {
+  "id": 9,
+  "img": "https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA",
+  "task": "Buy some Haribo",
+  "complete": false,
+  "icon": "doctor",
+  "steps": {
+    "first": "done",
+    "second": "failed"
+  },
+  "description_short": "Short description of ID 9",
+  "description": "Attended no do thoughts me on dissuade scarcely. Own are pretty spring suffer old denote his. By proposal speedily mr striking am. But attention sex questions applauded how happiness. To travelling occasional at oh sympathize prosperous. His merit end means widow songs linen known. Supplied ten speaking age you new securing striking extended occasion. Sang put paid away joy into six her."
+}]
