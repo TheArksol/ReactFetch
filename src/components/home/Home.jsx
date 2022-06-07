@@ -1,15 +1,23 @@
 import React from 'react';
-import "@ui5/webcomponents-fiori/dist/IllustratedMessage.js";
-import "@ui5/webcomponents-fiori/dist/illustrations/Tent.js"
+import { IllustratedMessage } from '@ui5/webcomponents-react';
+import "@ui5/webcomponents-fiori/dist/illustrations/Tent.js";
+
+import PageHeader from '../pageheader/PageHeader';
 
 
 const Home = ({ }) => {
 
+  // let token = {User: "Test", Name: "Marcel Gründler", PK: "1099"};
+  // localStorage.setItem('token', JSON.stringify(token));
+
+  // console.log(JSON.parse(localStorage.getItem('token')).Name)
+
   return (
     <>
-      <ui5-illustrated-message name="Tent" title-text="Home - Hauptseite">
-        <div slot="subtitle">Kinda empty here...</div>
-      </ui5-illustrated-message>
+    <PageHeader title="Hauptseite"/>
+      <IllustratedMessage name="Tent" title-text="Home - Hauptseite" subtitleText="Kinda empty here...">
+        
+      </IllustratedMessage>
     </>
 
   )

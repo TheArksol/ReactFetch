@@ -1,16 +1,10 @@
 import React from 'react';
 
-import "@ui5/webcomponents/dist/Card";
-import "@ui5/webcomponents/dist/CardHeader.js"
-import "@ui5/webcomponents/dist/Icon.js"
-
 import { Outlet, Link } from "react-router-dom"
 import { useNavigate } from "react-router-dom";
+import PageHeader from '../pageheader/PageHeader';
 
-
-//
 import { Card,CardHeader, Dialog, Button, Input, Label, FlexBox, Title, Bar, Icon, StandardListItem, List, GroupHeaderListItem} from '@ui5/webcomponents-react';
-
 import { ColumnChart } from '@ui5/webcomponents-react-charts';
 
 
@@ -30,6 +24,10 @@ const Dashboard = ({ }) => {
   ];
 
   return (
+
+    <>
+     <PageHeader title="GuideU Übersicht" />
+    
     <div
       style={{
         display: "flex",
@@ -40,14 +38,8 @@ const Dashboard = ({ }) => {
       }}>
 
       <div>
+      
         <FlexBox direction="Row" wrap="Wrap" style={{ gap: "1rem" }}>
-
-
-
-
-
-
-
           <Card style={{ width: "20rem" }} header={<CardHeader titleText="Auswertungen" subtitleText="Auswertungen für den Einkauf">
             <Icon slot="avatar" name="list"></Icon>
           </CardHeader>}>
@@ -103,13 +95,11 @@ const Dashboard = ({ }) => {
             </ColumnChart>
 
           </Card>
-
-
+          
         </FlexBox>
-
-
       </div>
     </div>
+    </>
   )
 }
 

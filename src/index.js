@@ -6,6 +6,7 @@ import App from "./App";
 import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 import Homework from "./components/homework/Homework";
 import Home from "./components/home/Home";
+import NoMatch from "./components/nomatch/NoMatch";
 import EmptyOutlet from "./components/emptyOutlet/EmptyOutlet";
 import ToDoList from "./components/todolist/ToDoList";
 import Fetching from "./components/fetching/Fetching";
@@ -22,8 +23,10 @@ root.render(
 
     <BrowserRouter>
       <Routes>
-   
+    
+
         <Route path="/" element={<App />}>
+        <Route path="*" element={<NoMatch />} />
           <Route index element={<Home />} />
 
           <Route path="homework" element={<EmptyOutlet />}>
@@ -33,11 +36,14 @@ root.render(
             <Route path="task3" element={<Fetching />} />
           </Route>
 
-          <Route path="work" element={<EmptyOutlet />}>
-            <Route index element={<Work />} />
-            <Route path="einkaufDashboard" element={<EinkaufDashboard />} />
-            <Route path="artikelsuche" element={<Artikelsuche />} />
-            <Route path="guideu" element={<GuideU_Dashboard />} />
+          <Route path="guideu" element={<EmptyOutlet />}>
+            <Route index element={<GuideU_Dashboard />} />
+            {/* <Route path="guideu" element={<GuideU_Dashboard />} /> */}
+          </Route>
+
+          <Route path="einkauf" element={<EmptyOutlet />}>
+            <Route index element={<EinkaufDashboard />} />
+            {/* <Route path="guideu" element={<GuideU_Dashboard />} /> */}
           </Route>
 
 
